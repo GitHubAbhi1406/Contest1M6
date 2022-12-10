@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="./main.js"></script>
+
+    <div class="para">
+        <p>
+            <form id="form1">
+                <label for="choose">Filter ui cards via their profession.</label>
+                <br><br><br><br><br>
+                <select name="drop" id="multiSelect">
+                    <option value="none">Profession</option>
+                <option value="dev">Developer</option>
+                <option value="admin">Admin</option>
+                </select>
+
+                <div class="row1">
+                    <p>
+                        1. Name : John      Profession : Developer      Age : 18
+                    </p>
+                </div>
+
+                <div class="row2">
+                    <p>
+                        2. Name : Jack      Profession : Developer      Age : 20
+                    </p>
+                </div>
+
+                <div class="row3">
+                    <p>
+                        1. Name : Karen      Profession : Admin      Age : 19
+                    </p>
+                </div>
+
+                <br><br><br>
+                <button type="submit" id="b1" onclick="myFunction()">Filter</button>
+            </form>
+        </p>
+    </div>
+</body>
+</html>

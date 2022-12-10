@@ -1,0 +1,77 @@
+body,html{
+    background-color: rgb(48, 41, 41);
+}
+
+.para{
+
+    padding: 20px 20px;
+    width: 900px;
+    height: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+
+#form1{
+    position: absolute;
+   
+    height: 600px;
+    width: 700px;
+}
+
+#multiSelect{
+    border: 2px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+#b1{
+    border: 2px solid white;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.row1{
+    position: relative;
+    border: 1px solid white;
+    margin-top: 10px;
+    border-radius: 3px;
+    max-width: 85%;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.row2{
+    position: relative;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    max-width: 85%;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: aliceblue;
+    
+}
+
+.row3{
+    position: relative;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    max-width: 85%;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: aliceblue;
+    
+}
